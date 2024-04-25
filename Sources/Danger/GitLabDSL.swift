@@ -212,7 +212,7 @@ public extension GitLab {
         public let approvalsBeforeMerge: Int?
         public let assignee: User?
         public let assignees: [User]?
-        public let author: User
+        public let author: User?
         public let changesCount: String
         public let closedAt: Date?
         public let closedBy: User?
